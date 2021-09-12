@@ -309,7 +309,7 @@
     "eidolon.codex.page.bonechill_wand": "The bonechill wand chills the very soul of any being unlucky enough to be taken under its curse. Upon striking a target, an icy hold grips them, preventing all health regeneration in the same manner as the claws of a wraith.",
   "eidolon.codex.chapter.pathfinder_wand": "Pathfinder Wand",
     "eidolon.codex.page.pathfinder_wand.title": "Pathfinder Wand",
-    "eidolon.codex.page.pathfinder_wand": "The Pathfinder wand allows the caster to manipulate physical laws of space and time. By casting the wand nearby you will be moved there after 3 seconds. Otherwise, by casting into another location will be inmediatly teleported and interchange locations with any entity within the targeted area.",
+    "eidolon.codex.page.pathfinder_wand": "The Pathfinder wand allows the caster to manipulate physical laws of space and time. By casting the wand nearby you will be moved back after 3 seconds. Otherwise, by casting into a far location will be inmediatly teleported and interchange locations with any entity over there.",
   "eidolon.codex.chapter.reaper_scythe": "Reaper Scythe",
     "eidolon.codex.page.reaper_scythe.title": "Reaper Scythe",
     "eidolon.codex.page.reaper_scythe": "A handy - if grim - tool for the enterprising necromancer. When an undead creature is felled by the reaper scythe, its body is destroyed and its soul is crystallized, permitting a more active approach to harvesting soul shards.",

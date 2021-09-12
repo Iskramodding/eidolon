@@ -251,7 +251,7 @@ public class Registry {
             .rarity(Rarity.UNCOMMON).maxStackSize(1).maxDamage(253).setNoRepair())
             .setLore("lore.eidolon.bonechill_wand")),
         PATHFINDER_WAND = addItem("pathfinder_wand", new PathfinderWandItem(itemProps()
-            .rarity(Rarity.UNCOMMON).maxStackSize(1).setNoRepair())
+            .rarity(Rarity.UNCOMMON).maxStackSize(1).maxDamage(124).setNoRepair())
             .setLore("lore.eidolon.pathfinder_wand")),
         GRAVITY_BELT = addItem("gravity_belt", new GravityBeltItem(itemProps()
             .rarity(Rarity.UNCOMMON).maxStackSize(1)).setLore("lore.eidolon.gravity_belt")),
