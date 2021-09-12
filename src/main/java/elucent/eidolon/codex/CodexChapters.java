@@ -30,9 +30,14 @@ public class CodexChapters {
     static Category NATURE, RITUALS, ARTIFICE, THEURGY, SIGNS;
 
     static Chapter NATURE_INDEX, MONSTERS, ORES, PEWTER, ENCHANTED_ASH,
-        RITUALS_INDEX, BRAZIER, ITEM_PROVIDERS, CRYSTAL_RITUAL, SUMMON_RITUAL, ALLURE_RITUAL, REPELLING_RITUAL, DECEIT_RITUAL, TIME_RITUALS, PURIFY_RITUAL, SANGUINE_RITUAL,
-        ARTIFICE_INDEX, WOODEN_STAND, TALLOW, CRUCIBLE, ARCANE_GOLD, REAGENTS, SOUL_GEMS, SHADOW_GEM, WARPED_SPROUTS, BASIC_ALCHEMY, INLAYS, BASIC_BAUBLES, MAGIC_WORKBENCH, VOID_AMULET, WARDED_MAIL, SOULFIRE_WAND, BONECHILL_WAND, REAPER_SCYTHE, CLEAVING_AXE, SOUL_ENCHANTER, REVERSAL_PICK, WARLOCK_ARMOR, GRAVITY_BELT, PRESTIGIOUS_PALM, MIND_SHIELDING_PLATE, RESOLUTE_BELT, GLASS_HAND,
-        THEURGY_INDEX, INTRO_SIGNS, EFFIGY, ALTARS, ALTAR_LIGHTS, ALTAR_SKULLS, ALTAR_HERBS, GOBLET, DARK_PRAYER, ANIMAL_SACRIFICE, DARK_TOUCH, STONE_ALTAR, UNHOLY_EFFIGY, VILLAGER_SACRIFICE,
+        RITUALS_INDEX, BRAZIER, ITEM_PROVIDERS, CRYSTAL_RITUAL, SUMMON_RITUAL,
+        ALLURE_RITUAL, REPELLING_RITUAL, DECEIT_RITUAL, TIME_RITUALS, PURIFY_RITUAL, SANGUINE_RITUAL,
+        ARTIFICE_INDEX, WOODEN_STAND, TALLOW, CRUCIBLE, ARCANE_GOLD, REAGENTS, SOUL_GEMS, SHADOW_GEM,
+        WARPED_SPROUTS, BASIC_ALCHEMY, INLAYS, BASIC_BAUBLES, MAGIC_WORKBENCH, VOID_AMULET, WARDED_MAIL,
+        SOULFIRE_WAND, BONECHILL_WAND, PATHFINDER_WAND, REAPER_SCYTHE, CLEAVING_AXE, SOUL_ENCHANTER,
+        REVERSAL_PICK, WARLOCK_ARMOR, GRAVITY_BELT, PRESTIGIOUS_PALM, MIND_SHIELDING_PLATE, RESOLUTE_BELT, GLASS_HAND,
+        THEURGY_INDEX, INTRO_SIGNS, EFFIGY, ALTARS, ALTAR_LIGHTS, ALTAR_SKULLS, ALTAR_HERBS, GOBLET,
+        DARK_PRAYER, ANIMAL_SACRIFICE, DARK_TOUCH, STONE_ALTAR, UNHOLY_EFFIGY, VILLAGER_SACRIFICE,
         SIGNS_INDEX, WICKED_SIGN, SACRED_SIGN, BLOOD_SIGN, SOUL_SIGN, MIND_SIGN;
 
     public static void init() {
@@ -481,6 +486,16 @@ public class CodexChapters {
                 new ItemStack(Registry.LESSER_SOUL_GEM.get()), new ItemStack(Items.BONE_MEAL), new ItemStack(Items.BONE_MEAL), new ItemStack(Items.BONE_MEAL))
         );
 
+        PATHFINDER_WAND = new Chapter(
+            "eidolon.codex.chapter.pathfinder_wand",
+            new TitlePage("eidolon.codex.page.pathfinder_wand"),
+            new WorktablePage(new ItemStack(Registry.PATHFINDER_WAND.get()),
+                ItemStack.EMPTY, new ItemStack(Registry.LEAD_INGOT.get()), new ItemStack(Registry.PRESTIGIOUS_PALM.get()),
+                ItemStack.EMPTY, new ItemStack(Items.STICK), new ItemStack(Registry.LEAD_INGOT.get()),
+                new ItemStack(Registry.ENDER_CALX.get()), ItemStack.EMPTY, ItemStack.EMPTY,
+                new ItemStack(Registry.LESSER_SOUL_GEM.get()), new ItemStack(Items.ENDER_PEARL), new ItemStack(Items.ENDER_PEARL), new ItemStack(Items.ENDER_PEARL))
+        );
+
         REAPER_SCYTHE = new Chapter(
             "eidolon.codex.chapter.reaper_scythe",
             new TitlePage("eidolon.codex.page.reaper_scythe"),
@@ -623,6 +638,7 @@ public class CodexChapters {
                 new IndexEntry(WARDED_MAIL, new ItemStack(Registry.WARDED_MAIL.get())),
                 new IndexEntry(SOULFIRE_WAND, new ItemStack(Registry.SOULFIRE_WAND.get())),
                 new IndexEntry(BONECHILL_WAND, new ItemStack(Registry.BONECHILL_WAND.get())),
+                new IndexEntry(PATHFINDER_WAND, new ItemStack(Registry.PATHFINDER_WAND.get())),
                 new IndexEntry(REAPER_SCYTHE, new ItemStack(Registry.REAPER_SCYTHE.get())),
                 new IndexEntry(CLEAVING_AXE, new ItemStack(Registry.CLEAVING_AXE.get())),
                 new IndexEntry(SOUL_ENCHANTER, new ItemStack(Registry.SOUL_ENCHANTER.get())),

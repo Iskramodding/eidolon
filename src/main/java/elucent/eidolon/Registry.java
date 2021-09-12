@@ -250,6 +250,9 @@ public class Registry {
         BONECHILL_WAND = addItem("bonechill_wand", new BonechillWandItem(itemProps()
             .rarity(Rarity.UNCOMMON).maxStackSize(1).maxDamage(253).setNoRepair())
             .setLore("lore.eidolon.bonechill_wand")),
+        PATHFINDER_WAND = addItem("pathfinder_wand", new PathfinderWandItem(itemProps()
+            .rarity(Rarity.UNCOMMON).maxStackSize(1).setNoRepair())
+            .setLore("lore.eidolon.pathfinder_wand")),
         GRAVITY_BELT = addItem("gravity_belt", new GravityBeltItem(itemProps()
             .rarity(Rarity.UNCOMMON).maxStackSize(1)).setLore("lore.eidolon.gravity_belt")),
         RESOLUTE_BELT = addItem("resolute_belt", new ResoluteBeltItem(itemProps()

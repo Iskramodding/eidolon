@@ -1,0 +1,5 @@
+pathfinder wand
+fix laboratory generation
+new armors
+new decoration blocks
+lategame perks

@@ -146,6 +146,16 @@ public class WorktableRegistry {
             Items.BONE_MEAL
         }, new ItemStack(Registry.BONECHILL_WAND.get())).setRegistryName(Eidolon.MODID, "bonechill_wand"));
         register(new WorktableRecipe(new Object[]{
+            ItemStack.EMPTY, Registry.LEAD_INGOT.get(), Registry.PRESTIGIOUS_PALM.get(),
+            ItemStack.EMPTY, Items.STICK, Registry.LEAD_INGOT.get(),
+            Registry.ENDER_CALX.get(), ItemStack.EMPTY, ItemStack.EMPTY
+        }, new Object[]{
+            Registry.LESSER_SOUL_GEM.get(),
+            Items.ENDER_PEARL,
+            Items.ENDER_PEARL,
+            Items.ENDER_PEARL
+        }, new ItemStack(Registry.PATHFINDER_WAND.get())).setRegistryName(Eidolon.MODID, "pathfinder_wand"));
+        register(new WorktableRecipe(new Object[]{
             Blocks.SMOOTH_STONE_SLAB, Blocks.SMOOTH_STONE_SLAB, Blocks.SMOOTH_STONE_SLAB,
             Tags.Items.STONE, Tags.Items.STONE, Tags.Items.STONE,
             Tags.Items.STONE, Registry.PEWTER_INLAY.get(), Tags.Items.STONE
